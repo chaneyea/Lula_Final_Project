@@ -18,6 +18,16 @@
         <br />
         <asp:Label ID="lblResult1028" runat="server" Text=""></asp:Label>
         </div>
+        <!-- Nolan's Problem 65 -->
+        <div>
+        <asp:Button ID="btnShowSolution65" runat="server" Text="Problem 65" OnClick="btnShowSolution65_Click" />
+        <br />
+        <asp:Label ID="lblDescription65" runat="server" Font-Bold="true" Text=""></asp:Label>
+        <br />
+        <asp:Label ID="lblTestCase65" runat="server" Text=""></asp:Label>
+        <br />
+        <asp:Label ID="lblResult65" runat="server" Text=""></asp:Label>
+        </div>
     </form>
 </body>
 </html>
