@@ -1,4 +1,19 @@
-﻿using System;
+﻿/*
+ *File Name: LeetCodeProblem42.cs
+
+* Name: Ethan Chaney
+* email:  chaneyea@mail.uc.edu
+* Assignment Number: Lula_Final_Project
+* Due Date:   4/29/2025
+* Course #/Section:   IS3050 Section 001
+* Semester/Year:   Spring 2025
+* Brief Description of the assignment:  Final project, making a website to show leetcode solutions
+
+* Makes a class to solve problem 42 on leetcode
+* Citations:
+* Anything else that's relevant:
+ */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
