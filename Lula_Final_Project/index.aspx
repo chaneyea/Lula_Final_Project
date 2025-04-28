@@ -58,7 +58,7 @@
        <div id="divProblem4" runat="server" visible="false">
        <asp:Button ID="btnProblem4" runat="server" Text="Problem 4" OnClick="btnProblem4_Click" />
            <br/>
-           <asp:Label ID="Label2" runat="server" Text="Given two sorted arrays nums1 and nums2 of size m and n respectively, return the median of the two sorted arrays."></asp:Label>
+           <asp:Label ID="Label2" runat="server" Font-Bold="True" Text="Given two sorted arrays nums1 and nums2 of size m and n respectively, return the median of the two sorted arrays."></asp:Label>
        <br /><br />
        <asp:Label ID="lblResult" runat="server" Text="" />
            <br /><br />
@@ -68,7 +68,7 @@
         <div id="divProblem42" runat="server" visible="false">
         <asp:Button ID="btnShowSolution" runat="server" Text="Problem 42" OnClick="btnShowSolution_Click" />
         <br />
-       <asp:Label ID="Label1" runat="server" Text="Given two sorted arrays nums1 and nums2 of size m and n respectively, return the median of the two sorted arrays." />
+       <asp:Label ID="Label1" runat="server" Font-Bold="True" Text="Given two sorted arrays nums1 and nums2 of size m and n respectively, return the median of the two sorted arrays." />
 
         <asp:Label ID="lblDescription" runat="server" Font-Bold="true" Text=""></asp:Label>
         <br />
