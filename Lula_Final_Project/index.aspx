@@ -9,6 +9,9 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <asp:Button ID="btnProblem4" runat="server" Text="Problem 4" OnClick="btnProblem4_Click" CssClass="btn-custom" />
+            <br /><br />
+            <asp:Label ID="lblResult" runat="server" Text="Result will appear here." CssClass="label-custom" />
         </div>
     </form>
 </body>

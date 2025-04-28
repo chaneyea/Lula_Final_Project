@@ -11,7 +11,13 @@ namespace Lula_Final_Project
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            int[] nums1 = { 1, 3 };
+            int[] nums2 = { 2 };
 
+            Problem_4 problem = new Problem_4();
+            double median = problem.FindMedianSortedArrays(nums1, nums2);
+
+            lblResult.Text = "Median: " + median.ToString("F5");
         }
     }
 }
